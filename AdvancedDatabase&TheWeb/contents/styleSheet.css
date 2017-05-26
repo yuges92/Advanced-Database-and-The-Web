@@ -1,0 +1,902 @@
+div.container {
+    width: 100%;
+    background-color: #7c0d0d;
+}
+
+nav1 {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 2em;
+}
+
+nav1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav1 ul a {
+    text-decoration: none;
+}
+
+nav1 ul li a {
+    color: #154569;
+    display: block;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-bottom: 5px #acacac solid;
+}
+
+nav1 ul li a:hover {
+    background-color: #f2f2f2;
+    border-bottom: 5px #0b4773 solid;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #008080;
+    clear: left;
+    text-align: center;
+}
+
+html {
+    background: linear-gradient( #ededed, #e8e8e8);
+}
+
+body {
+    margin: 0;
+    color: #154569;
+    background-repeat: repeat-x;
+    font-family: serif;
+    font-size: 16px;
+    width: 1000px;
+    margin: auto;
+    border: 1px solid #bdbdbd;
+    box-shadow: 1px 0px 5px #6b6b6b;
+    background: linear-gradient( #ffdbdb, #c9aaaa);
+    min-height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #8a2323;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    overflow: hidden;
+}
+
+nav ul li a {
+    color: #ffd7d7;
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-bottom: 5px #8a2323 solid;
+}
+
+nav ul li a:hover, .dropDown:hover .dropBtn, .dropBtn2 {
+    background-color: #500000;
+    border-bottom: 5px #ffffff solid;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #ff9100;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-item {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.flex-container>* {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {
+    background: black;
+    color: white;
+}
+
+footer {
+    background: #aaa;
+    color: white;
+}
+
+.nav {
+    background: #eee;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul a {
+    text-decoration: none;
+}
+
+
+
+.dropDown {
+    display: inline-block;
+}
+
+.dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropDownContent2 {
+    display: none;
+}
+
+.dropDownContent a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: 0;
+}
+
+.dropDownContent a:hover {
+    background-color: #f1f1f1;
+    border: 0;
+}
+
+.dropDown:hover .dropDownContent {
+    display: block;
+}
+
+.rightAlignBtn {
+    float: right;
+    right: 10px;
+}
+
+.container {
+    width: 100%;
+    display: inline-block;
+    background: none;
+}
+
+.searchBar {
+    padding: 5px;
+    margin-right: 5px;
+    float: right;
+    ;
+}
+
+.searchBar input[type=text] {
+    border: 1px solid #919191;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 2px;
+    width: 250px;
+    color: #707070;
+}
+
+.searchBar input[type=text]:focus {
+    background-color: #ffffff;
+    color: #707070;
+}
+
+.searchBar input[type=submit] {
+    background-color: #cccccc;
+    border: none;
+    color: #0b4670;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    margin: 1px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: #0b4670;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: #afafaf;
+}
+
+.registerForm {
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.registerForm input, .registerForm label {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registerForm select {
+    height: 40px;
+    width: 150px;
+    background-color: #ffffff;
+    font-family: serif;
+    color: #154569;
+}
+
+.registerForm label {
+    background-color: 0;
+}
+
+.registerForm input[type=submit], .registerForm input[type=reset] {
+    width: 40%;
+    float: left;
+    margin: 4px;
+    border: 1px solid #6f6f6f;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #ffffff;
+    color: #4e4e4e;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #4b4b4b;
+    width: auto;
+}
+
+.registerForm input[type=submit]:hover {
+    background-color: #1db91e;
+}
+
+input[type=reset]:hover {
+    background-color: #f45656;
+}
+
+input {
+    font-family: serif;
+    color: #154569;
+    width: auto;
+}
+
+.loginForm {
+    margin: 5% auto;
+    padding: 5%;
+}
+
+input[type=submit]:hover {
+    background-color: #e0e0e0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    height: 111px;
+    margin: 1px auto;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+th {
+    font-size: 16px;
+    background-color: #d0d0d0;
+}
+
+tr:hover {
+    background-color: #d0d0d0;
+}
+
+select {
+    border: none;
+    height: 20px;
+    width: 70px;
+}
+
+input {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.success {
+    box-shadow: 0 0 5px #33ff00;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 5px solid #67ee51;
+}
+
+.error {
+    box-shadow: 0 0 5px #ee5151;
+    padding: 3px 0px;
+    margin: 5px 1px;
+    border: 5px solid #ee5151;
+}
+
+.errorForText {
+    color: #780303;
+    text-shadow: 0 0 1px #bd3535;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.deleteBtn {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 16px;
+    border: 1px solid #cf3a3a;
+    padding: 5px;
+    margin: 5px;
+}
+
+.deleteBtn:hover {
+    background-color: #cf3a3a;
+    color: #ffffff;
+}
+
+.section {
+    border: 1px solid #949494;
+    box-shadow: 0 0 5px #141414;
+    background-color: #c7c7c7;
+    margin: 10px auto;
+    ;
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section a {
+    display: inline-block;
+}
+
+.section:after {
+    clear: both;
+}
+
+.section input, .section label {
+    border: none;
+    display: inline-block;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.section input[type=submit] {
+    padding: 5px;
+    margin: 5px auto;
+    width: 50%;
+    height: 40px;
+    background-color: #b8b8b8;
+    border: 1px solid #000000;
+    font-size: 16px;
+    color: #000000;
+}
+
+.section .section {
+    width: auto;
+}
+
+.orderItem {
+    border-bottom: 3px solid #3b3b3b;
+    text-align: left;
+    margin-top: 5px;
+    background-color: #b8b8b8;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.empty {
+    color: #5b5b5b;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    ;
+    color: #c8762a;
+    width: 80%;
+    margin: auto;
+}
+
+.orders {
+    border: #808080 1px solid;
+    margin: 20px;
+    border-radius: 5px;
+    flex: 1;
+    flex-direction: row;
+}
+
+.orderMain {
+    font-size: 16px;
+    flex: 1;
+    border-bottom: 3px solid #989898;
+    padding-top: 20px;
+    font: 20px bold;
+    color: #494747;
+    flex-direction: row;
+    font-weight: bold;
+    background-color: #9d9d9d;
+    padding: 10px;
+}
+
+.orderMain span {
+    font-weight: normal;
+}
+
+.orderItems {
+    color: #1b0650;
+    font: 16px bold;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    border: 1px solid #676767;
+}
+
+.orderItems span {
+    color: #7c7c7c;
+    font-weight: normal;
+}
+
+.wine-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.wine-items {
+    border: 1px solid #9a9a9a;
+    margin: 5px;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px #7e7e7e;
+    padding: 2px;
+    outline: 1px solid #ffffff;
+    max-width: 30%;
+}
+
+.wineType {
+    background-color: #8f5958;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.wineType .title {
+    font-weight: bold;
+    color: #ffbf8b;
+}
+
+.wine-desc {
+    display: flex;
+    padding: 10px;
+    background: #fee8d6;
+    flex-direction: column;
+}
+
+.wine-desc input, .wine-desc select {
+    border: 1px solid #154569;
+    color: #154569;
+}
+
+.buttons {
+    padding: 5px;
+}
+
+.button {
+    padding: 5px;
+    border: 1px solid #b9b9b9;
+}
+
+.wine-desc-desc a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.wine-desc-desc a:hover {
+    color: #2586cf;
+}
+
+.shoppingList-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9c9c9;
+    width: 80%;
+    margin: auto;
+}
+
+.shoppingBasketList, .shoppingBasket-total {
+    flex: 1;
+    flex-direction: row;
+    border: 1px solid #9a9a9a;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    background-color: #e7e7e7;
+    justify-content: center;
+}
+
+.shoppingList-button {
+    flex: 1;
+    margin: auto;
+    align-self: flex-end;
+}
+
+.list {
+    flex: 2;
+}
+
+.list-quantity {
+    flex: 1;
+    margin: auto;
+}
+
+.list-total {
+    flex: 1;
+    margin: auto;
+}
+
+.list span {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.list-quantity input {
+    font-size: 16px;
+    width: 40px;
+    border: 1px solid #a8a8a8;
+    text-align: center;
+}
+
+.shoppingBasket-total {
+    align-self: flex-end;
+    font-size: 16px;
+}
+
+.shoppingBasket-total input {
+    text-align: right;
+    font-size: 16px;
+    color: #154569;
+}
+
+.manage-wines {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container-row {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.container-row label {
+    flex: 1;
+    font-size: 16px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.container-row input, .container-row select, .container-row textarea {
+    flex: 2;
+    font-size: 16px;
+    border: 1px solid #6f6f6f;
+    align-items: flex-start;
+    background-color: #eeeeee;
+    font-family: serif;
+    color: #154569;
+}
+
+select {
+    font-family: serif;
+    color: #154569;
+}
+
+.add-form {
+    border: 1px solid #909090;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 15px #b5b5b5;
+}
+
+.container-row input[type=submit] {
+    flex: none;
+}
+
+.loginForm {
+    border: 1px solid #676767;
+    box-shadow: 0 4px 8px #969696, 0 6px 20px #666666;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+.loginForm h1 {
+    text-shadow: 5px 5px 20px #808080;
+}
+
+.loginForm input, .loginForm label {
+    font-size: 16px;
+}
+
+.loginForm input[type=submit] {
+    width: 50%;
+    font-size: 20px;
+}
+
+td:focus {
+    background-color: #cbf1ff;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.container-banner {
+    background: linear-gradient( #460101, #630b0b);
+    border: 2px solid #620000;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #ff9100;
+}
+
+.wine-image {
+    height: 100px;
+}
+
+.row {
+    display: flex;
+    padding: 3px;
+}
+
+.col1 {
+    flex: 1;
+}
+
+.wine-desc .row .col2 {
+    color: #df4d04;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.row .button {
+    margin: auto;
+}
+
+.row img {
+    margin: auto;
+}
+
+.row input {
+    width: 20%;
+}
+
+@media screen and (min-width: 100px) and (max-width:700px) {
+    html {
+        min-width: 200px;
+    }
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    div{
+      flex: 1;
+    }
+}
+
+.wineListContainer {
+    display: flex;
+}
+
+.wineListContainer .row2 {
+    flex: 3;
+}
+
+.wineListContainer .row1 h3 {
+    text-align: center;
+}
+
+.wineListContainer .row1 {
+    flex: 1;
+    border: 1px solid #afafaf;
+    background-color: #bf8475;
+    text-align: center;
+    justify-content: center;
+}
+
+.toggleGroup li {
+    list-style: none;
+    display: block;
+    position: relative;
+}
+
+.toggleGroup {
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.toggleGroup a {
+    text-decoration: none;
+    width: 120px;
+}
+
+.toggleBtn, .wineBtn {
+    color: #ffe6e6;
+    display: block;
+    padding: 15px 30px;
+    border: 1px solid #000000;
+    background-color: #8f5958;
+}
+
+.toggleBtn:hover, .wineBtn:hover {
+    background-color: #460101;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #ff9100;
+}
+
+.toggleContent {
+    display: none;
+}
+
+.toggleContent li {
+    display: block;
+    left: -40px;
+}
+
+.toggleContent>li>a {
+    color: #ffffff;
+    display: block;
+    padding: 10px 15px;
+    background-color: #f9cca8;
+    width: 150px;
+border-right: 1px solid #780000;
+border-left: 1px solid #780000;
+border-bottom: 1px solid #780000;
+
+
+}
+
+.toggleContent a:hover {
+    background-color: #856322;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #ff9100;
+}
+
+.categoryBar {
+    margin: auto;
+}
+.new-container{
+  display: flex;
+}
+
+.promotion-container{
+
+  display: flex;
+  flex-direction: column;
+    padding: 10px;
+}
+.promotion-container>h1{
+margin: 10px auto;
+}
+
+.promotion-content{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.promotion-content .promo{
+padding: 10px;
+border: 1px solid #7d0000;
+background-color: #ffd093;
+margin: 5px;
+box-shadow: 1px 1px 5px #570000;
+
+}
+
+.promo>span{
+  display: flex;
+justify-content: center;
+
+}
+
+.promoHead{
+  color: #9a0000;
+}
+
+a{
+  text-decoration: none;
+}
+
+.promotion-content .promo:hover{
+cursor: pointer;
+}
+.container-main{
+  display: flex;
+flex-direction: row-reverse;
+}
+
+.container-main-row1{
+flex: 1;
+
+}
+.container-main-row2{
+
+}

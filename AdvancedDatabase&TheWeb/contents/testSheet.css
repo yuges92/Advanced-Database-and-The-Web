@@ -1,0 +1,35 @@
+.categoryBar{
+  background-color: #d27117;
+  display: flex;
+
+}
+
+.categoryBar a{
+  text-decoration: none;
+}
+
+ .toggleBtn{
+
+}
+.categoryBar li{
+  list-style: none;
+}
+.toggleContent{
+  display: none;
+
+}
+
+.toggleContent a{
+margin: 5px;
+border: 1px solid #747474;
+}
+.container{
+  display: flex;
+}
+
+.container .col1{
+
+}
+ .container .col2{
+flex: 1;
+}
